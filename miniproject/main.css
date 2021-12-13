@@ -7,6 +7,16 @@ body {
 h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size:large;
+  font-style: bold;
+}
+
+p {
+  text-align: center;
+  align-content: center;
+  max-width: 1200px;
+  margin:0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -15,6 +25,11 @@ h1 {
   background: #ffffff;
   color: white;
   font-size: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 100;
 }
 
 footer {
