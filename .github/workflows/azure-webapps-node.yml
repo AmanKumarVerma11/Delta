@@ -49,8 +49,14 @@ jobs:
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
       with:
-        name: node-app
-        path: .
+        needs: 14.x
+        cache: npm
+        always-auth: false
+        check-latest: false
+      env:
+        AZURE_WEBAPP_NAME: your-app-name
+        AZURE_WEBAPP_PACKAGE_PATH: .
+        NODE_VERSION: 14.x
 
   deploy:
     runs-on: ubuntu-latest
