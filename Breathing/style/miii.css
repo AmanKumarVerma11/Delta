@@ -4,7 +4,9 @@
 
 body {
   font-family: arial;
-  background: #1E1E1E;
+  background-image: radial-gradient( circle 703px at 49.8% 26.8%,  rgb(255, 198, 128) 0%, rgba(220,249,254,1) 90% );
+  background-repeat: no-repeat;
+  height: 100vh;
   padding-top: 15rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -101,7 +103,7 @@ body .wrapper .circle:nth-child(2) {
 .text {
   margin: 3.5rem auto 0;
   width: 200px;
-  color: #FEFEFE;
+  color: #000000;
   font-weight: bold;
   overflow: hidden;
 }
@@ -130,13 +132,4 @@ body .wrapper .circle:nth-child(2) {
   to {
     transform: translatex(-400px);
   }
-}
-.follow-me {
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  opacity: 0.4;
-}
-.follow-me a {
-  color: #fff;
 }
