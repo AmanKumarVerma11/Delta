@@ -1,93 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>DELTA</title>
+        <title>Delta</title>
         <meta charset="utf-8"/> 
-        <meta name="viewport" contenet="width=device-width, initial-scale=1.0"/>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <meta name="viewport" contenet="width=max-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="./main.css"/>
     </head>
     <body>
-        <div class="header">
-            <div class="container mx-auto flex items-center justify-between relative-fit">
-                <image src="./svgs/logo.svg" width="150"/>
-                <nav class="items-right">
-                    <ul class="flex">
+        <nav class="header">
+            <div class="logo"><image src="./svgs/logo.svg" width="150"/></div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+                <div class="navbar-links">
+                    <ul>
                         <li>
-                            <a href="#" class="px-2 py-2 bg-red-500 hover:bg-red-600
-                             active:bg-gray-600 rounded-full focus:outline-none focus:ring 
-                             focus:ring-red-300 text-black rounded-md flex md:inline-flex 
-                             font-medium text-sm cursor-pointer hover:shadow-lg transition">Home</a>
+                            <a href="#" >Home</a>
                         </li>
                         <li>
-                            <a href="#about" class="px-2 py-2 transition hover:bg-gray-200 
-                            rounded-full active 
-                            text-black rounded-lg flex md:inline-flex font-medium 
-                            text-sm cursor-pointer hover:shadow-lg transition">About</a>
+                            <a href="#about" >About</a>
                         </li>
                         <li>                            
-                            <a href="#Therapy" class="px-2 py-2 transition hover:bg-gray-200 
-                            rounded-full active  
-                            text-black rounded-lg flex md:inline-flex font-medium 
-                            text-sm cursor-pointer hover:shadow-lg transition">Therapy</a>
+                            <a href="#Therapy" >Therapy</a>
                         </li>
                         <li>
-                            <a href="#" class="px-2 py-2 transition hover:bg-gray-200 
-                            rounded-full active  
-                            text-black rounded-lg flex md:inline-flex font-medium 
-                            text-sm cursor-pointer hover:shadow-lg transition">Contact</a>
+                            <a href="./Contact/contact.html" target="_blank">Contact</a>
                         </li>
                     </ul>
-                </nav>
-            </div>
+                </div>
+            </nav>
+        <div class="yoga">
+        <image src="./svgs/Frame.svg" alt="just an image"/>
         </div>
-        <br>
-        <center><image class="h-661px w-1007px object-cover " src="./svgs/Frame.svg"/></center>
-        <br>
-        <center><a href="Breathing\med.html" target="_blank" class="text-center 
-        px-2 py-2 rounded-full active bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 
-        hover:from-pink-600 hover:via-orange-500 hover:to-red-500 hover:shadow-xl transition">Lets Meditate</a></center>
-        
-        <br>
-        <hr>
-        <iframe style="border-radius:10px" src="https://open.spotify.com/embed/playlist/6u861K03D5KZi0IqmRV7Jt?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        <hr>
-        <div class="content">    
-            <strong><h1 id="about">What Is Mental Health?</h1></strong>
-            <p class="text-justify">
+        <div class="meditate">
+        <a href="Breathing\med.html" target="_blank" >Lets Meditate</a>
+        <p>Take a deep breath and relax <br>Note : It's just a informative website related to mental health issues.</p>
+        </div>
+        <div class="content" id="about">    
+            <h1 class="h1" >What Is Mental Health?</h1>
+            <div>
+            <p>
                 Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act.
                 It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every 
-                stage of life, from childhood and adolescence through adulthood.<br>
-                Over the course of your life, if you experience mental health problems, your thinking, mood, and behavior 
-                could be affected. Many factors contribute to mental health problems, including: <br>
-    
+                stage of life, from childhood and adolescence through adulthood.</p>
+                <p>Over the course of your life, if you experience mental health problems, your thinking, mood, and behavior 
+                could be affected. Many factors contribute to mental health problems, including: </p>
+                <p>
                 &#9679;Biological factors, such as genes or brain chemistry<br>
                 &#9679;Life experiences, such as trauma or abuse<br>
                 &#9679;Family history of mental health problems<br>
+                </p>
+                <p>
                 Mental health problems are common but help is available. People with mental health problems can get better and many recover completely.
-                <br>
-                <hr>
             </p>
+            </div>
+        </div>
+        <div class="content1">
+            <h1 class="h2">The digital revolution and its impact on mental health care</h1>
+            <p>The digital revolution is evolving at an unstoppable pace. 
+                Alongside the unprecedented explosion of digital technology facilities and systems, 
+                mental health care is under greater pressure than ever before. With its emphasis on big data, computing power, 
+                mobile technology, and network information, digital technology is set to transform health care delivery.
+                This article reviews the field of digital health technology assessment and intervention primarily in secondary 
+                service mental health care, including the barriers and facilitators to adopting and implementing digitally mediated 
+                interventions in service delivery. We consider the impact of digitally mediated communication on human interaction 
+                and its potential impact on various mental states such as those linked to mood, anxiety but also well-being. These 
+                developments point to a need for both theory- and data-driven approaches to digital health care. We argue that, as 
+                developments in digital technology are outpacing the evaluation of rigorous digital health interventions, more 
+                advanced methodologies are needed to keep up with the pace of digital technology development. The need for 
+                co-production of digital tools with and for people with chronic and mental health difficulties, 
+                and implications of digital technology for psychotherapy practice, will be central to this development.</p>
+        </div>
+        <div class="music">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3x1TE4zT9eFwfn1dytnnVn?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="content" id="Therapy">
+            <h1 class="h1">Behavioral therapy</h1>
+            <div>
+            <p>Behavioral therapy is a focused, action-oriented approach to mental health treatment.</p>
+            <p>According to behavioral theory, certain behaviors develop from things you learned 
+                in your past. Some of these behaviors might affect your life negatively or cause distress.</p>
+            <p>Behavioral therapy can help you change your behavioral responses.</p>
+            <h4 style="text-align: left; padding-left: 15px;">How it works</h4>
+            <p>In behavioral therapy, you won't spend much time talking about unconscious reasons for your behavior or working through emotional difficulties.</p>
+            <p>Instead, you'll focus on ways to change behavioral reactions and patterns that cause distress.</p>
+            <p>There are many subtypes of behavioral therapy, including:<br>
+                &#9679; <b>Systematic desensitization.</b> Systematic desensitization combines relaxation 
+                exercises with gradual exposure to something you fear. This can help you slowly 
+                get used to replacing feelings of fear and anxiety with a relaxation response.<br><br>
+                &#9679; <b>Aversion therapy.</b> In aversion therapy, you learn to associate the behavior you want 
+                to change with something that's uncomfortable or unpleasant in some way. This association 
+                may help you stop the behavior.<br><br>
+                &#9679; <b>Flooding.</b> This is similar to systematic desensitization, but it involves facing 
+                your fears directly from the start, rather than gradually. If you have a phobia of dogs, 
+                for example, the first exposure step might be sitting in a room of friendly, playful dogs. 
+                With systematic desensitization, on the other hand, your first exposure step might be looking at pictures of dogs.<br>
+            </p>
+            <h4 style="text-align: left; padding-left: 15px;">What it's good for</h4>
+            <p>Behavioral therapy may be a good option for addressing:<br>
+                &#9679; anxiety<br>
+                &#9679; phobias<br>
+                &#9679; substance use disorder<br>
+                &#9679; attention deficit hyperactivity disorder<br>
+                &#9679; obsessive compulsive disorder (OCD)<br>
+                &#9679; oppositional and defiant behaviors<br>
+                &#9679; behavioral issues that result from communication difficulties or emotional challenges<br>
+            </p>
+            </div>
         </div>
         <div class="content">
-            <strong><h1 id="Therapy">Cognitive Behavioral Therapy</h1></strong>
-            <p class="text-justify">Cognitive behavioral therapy (CBT) is a form of psychotherapy that focuses on modifying 
+            <h1 class="h1">Cognitive Behavioral Therapy</h1>
+            <div>
+            <p>Cognitive behavioral therapy (CBT) is a form of psychotherapy that focuses on modifying 
                 dysfunctional emotions, behaviors, and thoughts by interrogating and uprooting negative or irrational beliefs.
-                 Considered a "solutions-oriented" form of talk therapy, CBT rests on the idea that thoughts and perceptions influence behavior.<br>
-
-                Feeling distressed, in some cases, may distort one’s perception of reality. CBT aims to identify harmful thoughts,
-                 assess whether they are an accurate depiction of reality, and, if they are not, employ strategies to challenge and overcome them.<br>
-                
+                 Considered a "solutions-oriented" form of talk therapy, CBT rests on the idea that thoughts and perceptions influence behavior.</p>
+                <p>
+                Feeling distressed, in some cases, may distort one's perception of reality. CBT aims to identify harmful thoughts,
+                 assess whether they are an accurate depiction of reality, and, if they are not, employ strategies to challenge and overcome them.</p>
+                <p>
                 CBT is appropriate for people of all ages, including children, adolescents, and adults.
                  Evidence has mounted that CBT can address numerous conditions, such as major depressive disorder,
                   anxiety disorders, post-traumatic stress disorder, eating disorders, obsessive-compulsive disorders, and many others.</p>
-
+            </p>
+            <h4 style="text-align: left; padding-left: 15px;">How it works</h4>
+            <p>In CBT sessions, you'll work on identifying patterns and learning more about how they might negatively affect you.</p>
+            <p>With your therapist's guidance, you'll explore ways to replace negative thought patterns or behaviors with ones that are more helpful and accurate.</p>
+            <p>Like behavioral therapy, CBT doesn't spend much time addressing past events. Instead, it focuses on addressing existing symptoms and making changes.</p>
+            <p>CBT often involves homework or practice outside the therapy session.</p>
+            <p>For example, you might keep track of negative thoughts or things that trouble you between sessions in a journal. This practice helps to reinforce 
+                what you learn in therapy and apply your new skills to everyday situations.</p>
+            <p>There are also some subtypes of CBT, such as:<br>
+                &#9679; <b>Dialectical behavioral therapy (DBT).</b> DBT uses CBT skills, but it prioritizes acceptance and emotional regulation. 
+                You can expect to work on developing skills to cope with distressing or challenging situations. 
+                You may also learn how to accept and deal with difficult emotions when they arise.<br><br>
+                &#9679; <b>Rational emotive therapy.</b> This approach helps you learn how to challenge irrational 
+                beliefs that contribute to emotional distress or other issues. The idea behind rational emotive 
+                therapy is that replacing irrational thoughts with more rational ones can improve your well-being.<br>
+            </p>
+            <h4 style="text-align: left; padding-left: 15px;">What it's good for</h4>
+            <p>CBT may be a good option for addressing:<br>
+                &#9679; mood disorders, such as depression and bipolar disorder<br>
+                &#9679; anxiety and phobias<br>
+                &#9679; eating disorders<br>
+                &#9679; substance use disorders<br>
+                &#9679; insomnia<br>
+                &#9679; obsessive compulsive disorder (OCD)<br>
+                &#9679; some symptoms of schizophrenia<br>
+            </p>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="h1">Psychodynamic therapy</h1>
+            <div>
+            <p>Psychodynamic therapy developed from psychoanalysis, a long-term approach to mental health treatment.</p>
+            <p>In psychoanalysis, you can expect to talk about anything on your mind to uncover patterns in thoughts or 
+               behavior that might be contributing to distress. It's also common to talk about your childhood and past, 
+               along with recurring dreams or fantasies you might have.</p>
+            <p>Psychodynamic therapy is a shorter-term version of psychoanalysis, and it focuses on specific problems and goals.</p>
+            <h4 style="text-align: left; padding-left: 15px;">How it works</h4>
+            <p>In psychodynamic therapy, you'll work with a therapist to explore the connection between your 
+                unconscious mind and your actions. This involves examining your emotions, relationships, and thought patterns.</p>
+            <p>Psychodynamic therapy can be a longer-term approach to mental health treatment, compared to cognitive behavioral therapy (CBT) 
+                and other types of therapy. Traditional psychoanalysis is an intensive form of treatment that people can go to for years.</p>
+            <p>Research suggests many people continue to improve, even after they complete psychodynamic therapy.</p>
+            <h4 style="text-align: left; padding-left: 15px;">What it's good for</h4>
+            <p>Psychodynamic therapy may be a good choice for addressing:<br>
+                &#9679; depression<br>
+                &#9679; anxiety<br>
+                &#9679; eating disorders<br>
+                &#9679; somatic symptoms<br>
+                &#9679; substance use disorder<br>
+                &#9679; a variety of other conditions<br>
+            </p>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="h1">Humanistic therapy</h1>
+            <div>
+            <p>Humanistic therapy is an approach that looks at how your worldview affects the choices you make, 
+            especially choices that cause distress. It's based on the belief that you're the best person to understand your experiences and needs.</p>
+            <p>Humanistic therapists work to help you better understand what you're experiencing, offering guidance and support without interpreting your feelings for you.</p>
+            <h4 style="text-align: left; padding-left: 15px;">How it works</h4>
+            <p>Your therapist will help you work toward the goal of living your most fulfilling life, largely by enabling you to be your true self. 
+                You'll spend time exploring ways to grow and increase self-acceptance along with discussing the issues you're dealing with.</p>
+            <p>Another important principle in humanistic therapy is unconditional positive regard.</p>
+            <p>This simply means your therapist will accept you, even if they disagree with you on some things. 
+            Humanistic therapy is particularly useful for coping with negative judgement (perceived or real) from others.</p>
+            <p>Generally, you'll be the one directing the session. Your therapist will step in when needed, 
+            but otherwise they'll be actively listening to you, occasionally asking questions to ensure they understand what you're saying.</p>
+            <p>Humanistic approaches to therapy include:<br>
+                &#9679; <b>Existential therapy.</b> In this philosophical approach to treatment, you'll consider concepts such as responsibility 
+                for your choices and your freedom to make choices. You might spend time talking about what certain parts of your life 
+                mean to you and how you might find greater meaning in life.<br><br>
+                &#9679; <b>Person-centered therapy.</b> This approach works from the belief that emotional distress can result 
+                when others criticize you or show disapproval for your choices or actions. This can make self-acceptance and growth difficult. 
+                Therapists offer acceptance, empathy, and guidance as you work on personal growth and positive change.<br><br>
+                &#9679; <b>Gestalt therapy.</b> With this approach, you'll look at unresolved issues, such as relationship and family conflicts, 
+                considering how they affect your emotional well-being. Gestalt therapy focuses on the present moment and often involves 
+                role-playing or acting out scenarios with movement or visualization.<br>
+            </p>
+            <h4 style="text-align: left; padding-left: 15px;">What it's good for</h4>
+            <p>Humanistic therapy can be useful for addressing:<br>
+                &#9679; self-esteem issues<br>
+                &#9679; difficulty coping with chronic health concerns<br>
+                &#9679; effects of trauma<br>
+                &#9679; depression<br>
+                &#9679; relationship issues<br>
+                &#9679; substance use disorder<br>
+                &#9679; feelings of worthlessness or being lost in life<br>
+            </p>
+            </div>
         </div>
         <footer>
-            <p>Mental Health digital care 
-                Program : Delta<br>
+            <p>Mental Health digital care information : Delta<br>
             <a href="mailto:akverma11aug2002@gmail.com">Email : akverma11aug2002@gmail.com</a>
             </p>
         </footer>
+        <script src="home.js"></script>
     </body>
 </html>
